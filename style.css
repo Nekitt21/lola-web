@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f9f3e7;
+
+}
+
+header {
+ background-color: #000;
+ color: #fff;
+ padding: 30px;
+}
+
+nav ul {
+ list-style-type: none;
+ display: flex;
+gap: 70px;
+margin-left: 200px;
+}
+
+nav ul li {
+ margin-right: 10px;
+}
+
+nav ul li a {
+ color: #fff;
+ text-decoration: none;
+ font-size: 30px;
+}
+
+main {
+ padding: 50px;
+}
+
+section {
+ margin-bottom: 50px;
+}
+
+h1 {
+ text-align: center;
+ margin-bottom: 60px;
+ color: #000;
+ font-size: 60px;
+}
+
+p {
+ text-align: justify;
+ line-height: 1.5;
+ margin-bottom: 20px;
+ font-size: 40px;
+}
+
+.gallery {
+ display: grid;
+ grid-template-columns: repeat;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ margin-left: 30px;
+}
+.foto-gallery{
+    width: 30%;
+    border-radius: 9px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+:root {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+ 
+  .footer {
+    
+    
+    padding: 2rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  .logo-inst{
+    width: 25%;
+  }
+  .logo-telega{
+    width: 25%;
+  }
+  .logo-tiktok{
+    width: 25%;
+  }
+  .soc-group{
+    margin-left: 160px;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  p{
+    max-width: 600px;
+    margin-left: 140px;
+    text-align: center;
+  }
